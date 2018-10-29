@@ -6,50 +6,8 @@ client.on('ready', () => {
     });
 
 client.on('message', message => {
-    if (message.content === 'tyfus') {
-    	message.reply('Niet schelden godverdomme');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'Kut') {
-    	message.reply('Niet schelden godverdomme');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'tering') {
-    	message.reply('Niet schelden godverdomme');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'hoi') {
-    	message.reply('doei');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'yo') {
-    	message.reply('hey homo');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'hey') {
-    	message.reply('doei');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'oke') {
-    	message.reply('vagina');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'nee') {
-    	message.reply('piemels likken');
+    if (message.content === '!stats') {
+    	message.channel.send('https://cdn.battlemetrics.com/b/standardVertical/2443908.png?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3A24H&chartColor=%23FF0700&maxPlayersHeight=300');
   	}
 });
 
