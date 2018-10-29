@@ -1,2 +1,2 @@
-# Mickbotc
-Pulls your mothers pants automaticaly down and rapes her.
+# Rust discord bot
+An discord bot for our new Rust server
