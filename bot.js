@@ -8,10 +8,9 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!stats') {
     	message.channel.send('https://cdn.battlemetrics.com/b/standardVertical/2443908.png?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%2336393f&chart=&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight=300');
-  	.then(msg => {
+        .then(msg => {
     msg.delete(10000)
   })
-    }
 });
 
 client.on('message', message => {
