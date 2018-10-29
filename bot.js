@@ -54,8 +54,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'thx') {
-    	message.reply('niks thx zoek een leven');
+    if (message.content === '!wipe') {
+    	message.reply('The next wipe is on: 1.11.18 around 3PM EST');
   	}
 });
 
