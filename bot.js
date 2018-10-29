@@ -61,7 +61,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'spoderman') {
-    	message.reply('is een geile anime beer');
+    	message.channel.send('is een geile anime beer');
   	}
 });
 
