@@ -23,5 +23,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '!factuur') {
+    	message.channel.send('https://digispark.saintware.club/files/leukefoto.png');
+  	}
+});
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
