@@ -1,7 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => { client.user.setActivity("Elias"); });
+client.on('ready', () => { 
+    bot.user.setGame('Elias') 
+});
 
 client.on('message', message => {
     if (message.content === '!stats') {
