@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => { 
     client.user.setGame('Elias') 
-});
+})
 
 client.on('message', message => {
     if (message.content === '!stats') {
