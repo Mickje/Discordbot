@@ -31,7 +31,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'gefeliciteerd') {
-    	message.channel.send('Happy birthday Elias!!🎉🎊');
+    	message.channel.send('Happy birthday Elias!!🎉🎊').then(m => m.delete(0));
   	}
 });
 
