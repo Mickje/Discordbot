@@ -18,8 +18,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'spoderman') {
-    	message.channel.send('is een geile anime beer');
+    if (message.content === '!betaal') {
+    	message.channel.send('https://paypal.me/mickje');
   	}
 });
 
