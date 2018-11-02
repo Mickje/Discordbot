@@ -35,6 +35,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '!invite') {
+    	message.channel.send('https://discord.gg/gzGfmzd').then(m => m.delete(10000));
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
