@@ -7,13 +7,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!stats') {
-    	message.channel.send('https://cdn.battlemetrics.com/b/standardVertical/2443908.png?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%2336393f&chart=&chartColor=%23FF0700&showPlayers=1&maxPlayersHeight=300').then(m => m.delete(10000));
+    	message.channel.send('https://www.battlemetrics.com/servers/rust/2784502').then(m => m.delete(10000));
     }
  });
 
 client.on('message', message => {
     if (message.content === '!wipe') {
-    	message.reply('The next wipe is on: 1.11.18 around 3PM EST').then(m => m.delete(10000));
+    	message.reply('The next wipe is on: 6.12.18 around 3PM EST').then(m => m.delete(10000));
   	}
 });
 
@@ -30,8 +30,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'gefeliciteerd') {
-    	message.channel.send('Happy birthday Elias!!🎉🎊').then(m => m.delete(10000));
+    if (message.content === '!serverip') {
+    	message.channel.send('client.connect 108.61.98.158:28046').then(m => m.delete(10000));
   	}
 });
 
